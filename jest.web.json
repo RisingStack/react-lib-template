@@ -1,0 +1,13 @@
+{
+  "setupFilesAfterEnv": ["./scripts/testSetup.js"],
+  "testRegex": "\\.test\\.jsx?$",
+  "collectCoverage": true,
+  "coverageReporters": ["lcovonly", "text"],
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx}",
+    "examples/**/*.{js,jsx}",
+    "!examples/**/build/**",
+    "!examples/**/index.js"
+  ],
+  "coverageDirectory": "coverage"
+}
