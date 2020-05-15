@@ -24,7 +24,7 @@ React Lib Template is a template repository for React based libraries.
 
 ## Installation :cd:
 
-`npx @risingstack/react-lib-template my-lib` or `npm init @risingstack/react-lib-template`
+Create git repository based on this template by clicking the `Use this template` button.
 
 ### Manual setup
 
